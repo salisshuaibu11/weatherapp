@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
+import Weather from "./component/weather.component";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Weather app by Hojung, Salisu, Edyfy
-      </header>
+      <Weather/> 
     </div>
   );
 }
